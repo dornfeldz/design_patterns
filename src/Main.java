@@ -9,6 +9,8 @@ import observer.Investor;
 import observer.Observer_;
 import observer.Stock;
 import prototype.Sheep;
+import proxy.Internet;
+import proxy.InternetProxy;
 import singleton.Singleton;
 import factory.NotificationFactory;
 import strategy.QuickSort;
@@ -16,6 +18,10 @@ import strategy.Sorter;
 import template.Beverage;
 import template.Coffee;
 import template.Tea;
+import visitor.Book;
+import visitor.Fruit;
+import visitor.Item;
+import visitor.ShoppingCart;
 
 public class Main {
     public static void main(String[] args) {
@@ -57,5 +63,17 @@ public class Main {
 
         Beverage coffee = new Coffee();
         coffee.prepareRecipe();
+
+        // Proxy test
+        Internet internet = new InternetProxy();
+        internet.connectTo("google.com");
+        internet.connectTo("badwebsite.com");
+
+        // Visitor test
+        Item book = new Book("Design Patterns", 50.0);
+        Item apple = new Fruit("apple", 2.5);
+        ShoppingCart cart = new ShoppingCart();
+        book.accept(cart);
+        apple.accept(cart);
     }
 }
