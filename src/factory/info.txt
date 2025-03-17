@@ -1,0 +1,9 @@
+2. Factory Method Pattern
+Creates objects without exposing the instantiation logic.
+
+Example Use Case
+Creating different types of notifications (SMS, Email, Push).
+
+Factory hides the object creation logic.
+Easy to add new notification types without modifying existing code.
+Prevents tight coupling between client and object creation.

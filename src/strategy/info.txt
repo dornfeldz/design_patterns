@@ -1,0 +1,9 @@
+3. Strategy Pattern
+Encapsulates different algorithms and makes them interchangeable.
+
+Example Use Case
+Sorting a list with different sorting strategies (BubbleSort, QuickSort, MergeSort).
+
+Makes algorithms easily switchable.
+Avoids if-else chains in the client code.
+Useful for dynamic behavior selection.

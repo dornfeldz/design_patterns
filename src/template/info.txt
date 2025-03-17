@@ -1,0 +1,9 @@
+8. Template Method Pattern
+Defines the skeleton of an algorithm in a base class and allows subclasses to fill in details.
+
+Example Use Case
+Making tea and coffee where the preparation steps are mostly the same but differ slightly.
+
+The base class defines the workflow.
+Subclasses override only the necessary steps.
+Useful for standardized processes.

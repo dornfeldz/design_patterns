@@ -1,0 +1,9 @@
+5. Decorator Pattern
+Dynamically adds behavior to objects at runtime without modifying existing code.
+
+Example Use Case
+Adding features to a car (e.g., sunroof, navigation system).
+
+Adds new functionality dynamically.
+Avoids modifying the base class.
+Useful for UI components (e.g., adding scrollbars, tooltips).

@@ -1,0 +1,9 @@
+6. Prototype Pattern
+The Prototype Pattern is used when object creation is expensive and cloning existing objects is more efficient than creating new ones.
+
+Example Use Case
+Copying complex objects without repeating initialization logic.
+Creating multiple objects with the same initial state.
+
+Avoids recreating objects from scratch.
+Supports deep copy (copying inner objects) and shallow copy (copying only references).

@@ -1,0 +1,9 @@
+4. Observer Pattern
+Defines a one-to-many dependency so that when one object (subject) changes state, all its dependents (observers) are notified automatically.
+
+Example Use Case
+Stock market where multiple users (observers) watch stock price changes.
+
+Used in event-driven systems (UI frameworks, message brokers).
+Loose coupling between subject and observers.
+Changes propagate automatically to all listeners.

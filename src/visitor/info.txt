@@ -1,0 +1,11 @@
+Visitor Pattern
+Separates an algorithm from the objects on which it operates, allowing new operations to be added without modifying the existing object structure.
+
+Example Use Case
+Shopping cart system where different items (books, fruits, etc.) need to be processed differently.
+Syntax trees in compilers, where different nodes require different operations (e.g., evaluation, optimization).
+Data structure traversal, such as visiting elements of a complex structure like a file system or a graph.
+Key Features
+Double Dispatch → The object accepts a visitor, and the visitor determines the appropriate operation.
+Encapsulates Operations → You can add new behaviors without modifying the original class hierarchy.
+Decouples Object Structure & Operations → Objects (like Book and Fruit) don’t need to change when new operations are added.

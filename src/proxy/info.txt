@@ -1,0 +1,9 @@
+9. Proxy Pattern
+A Proxy acts as an intermediary for another object, controlling access to it.
+
+Example Use Case
+Lazy-loading heavy objects (e.g., database connections).
+Security proxies (e.g., restricting API access).
+
+Controls access to another object.
+Can be used for caching, logging, and security.

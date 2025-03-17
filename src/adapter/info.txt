@@ -1,0 +1,9 @@
+7. Adapter Pattern
+The Adapter Pattern allows objects with incompatible interfaces to work together by acting as a bridge.
+
+Example Use Case
+Converting an interface (e.g., making an old API work with a new system).
+Plugging different data formats into a common interface.
+
+Converts one interface into another.
+Used when refactoring or integrating legacy code.
